@@ -15,6 +15,10 @@
 		BABDB7092417EAD600B548B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABDB7072417EAD600B548B2 /* LaunchScreen.storyboard */; };
 		BABDB7142417EAD600B548B2 /* Navigation_IN_classTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABDB7132417EAD600B548B2 /* Navigation_IN_classTests.swift */; };
 		BABDB71F2417EAD600B548B2 /* Navigation_IN_classUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABDB71E2417EAD600B548B2 /* Navigation_IN_classUITests.swift */; };
+		BABDB72D2417F1F000B548B2 /* TreshVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABDB72C2417F1F000B548B2 /* TreshVC.swift */; };
+		BABDB72F2417F20200B548B2 /* BinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABDB72E2417F20200B548B2 /* BinVC.swift */; };
+		BABDB7312417F21500B548B2 /* VroomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABDB7302417F21500B548B2 /* VroomVC.swift */; };
+		BABDB7352417F31900B548B2 /* NavTabVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABDB7342417F31900B548B2 /* NavTabVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		BABDB71A2417EAD600B548B2 /* Navigation IN classUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navigation IN classUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABDB71E2417EAD600B548B2 /* Navigation_IN_classUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_IN_classUITests.swift; sourceTree = "<group>"; };
 		BABDB7202417EAD600B548B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABDB72C2417F1F000B548B2 /* TreshVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreshVC.swift; sourceTree = "<group>"; };
+		BABDB72E2417F20200B548B2 /* BinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinVC.swift; sourceTree = "<group>"; };
+		BABDB7302417F21500B548B2 /* VroomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VroomVC.swift; sourceTree = "<group>"; };
+		BABDB7342417F31900B548B2 /* NavTabVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTabVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 		BABDB6FB2417EAD300B548B2 /* Navigation IN class */ = {
 			isa = PBXGroup;
 			children = (
+				BABDB7342417F31900B548B2 /* NavTabVCViewController.swift */,
 				BABDB6FC2417EAD300B548B2 /* AppDelegate.swift */,
 				BABDB6FE2417EAD300B548B2 /* SceneDelegate.swift */,
 				BABDB7002417EAD300B548B2 /* ViewController.swift */,
 				BABDB7022417EAD300B548B2 /* Main.storyboard */,
+				BABDB7302417F21500B548B2 /* VroomVC.swift */,
+				BABDB72C2417F1F000B548B2 /* TreshVC.swift */,
+				BABDB72E2417F20200B548B2 /* BinVC.swift */,
 				BABDB7052417EAD600B548B2 /* Assets.xcassets */,
 				BABDB7072417EAD600B548B2 /* LaunchScreen.storyboard */,
 				BABDB70A2417EAD600B548B2 /* Info.plist */,
@@ -261,7 +273,11 @@
 			files = (
 				BABDB7012417EAD300B548B2 /* ViewController.swift in Sources */,
 				BABDB6FD2417EAD300B548B2 /* AppDelegate.swift in Sources */,
+				BABDB72F2417F20200B548B2 /* BinVC.swift in Sources */,
 				BABDB6FF2417EAD300B548B2 /* SceneDelegate.swift in Sources */,
+				BABDB7312417F21500B548B2 /* VroomVC.swift in Sources */,
+				BABDB72D2417F1F000B548B2 /* TreshVC.swift in Sources */,
+				BABDB7352417F31900B548B2 /* NavTabVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
